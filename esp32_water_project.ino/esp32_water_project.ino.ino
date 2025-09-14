@@ -2,12 +2,12 @@
 #include <ThingSpeak.h>
 
 // WiFi credentials
-const char* ssid = "Sapthagiri Pg 2nd Floor";
-const char* password = "Sagar@123";
+const char* ssid = "YOUR SS ID";
+const char* password = "YOUR WIFI PASSWORD";
 
 // ThingSpeak credentials
-unsigned long channelID = 3031269;    // e.g., 1234567
-const char* writeAPIKey = "MM97PCLUQO85J2RB";
+unsigned long channelID = "YOUR CHANNEL ID";    // e.g., 1234567
+const char* writeAPIKey = "YOUR API KEY FROM THINGSPEAK";
 
 WiFiClient client;
 
